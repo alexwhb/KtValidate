@@ -21,16 +21,3 @@ and you should now be able to now do +CustomeRule or whatever you named your rul
 
 Feel free to submit a PR if there's not something in here that you want. 
 
-To add this to your project first add jitpack to your gradle repos 
-```gradle
-repositories {
-   ...
-   maven { url 'https://jitpack.io' }
-}
-```
-Then add this:
-```gradle 
-dependencies {
-	implementation 'com.github.alexwhb:KtValidate:0.1.0'
-}
-```
